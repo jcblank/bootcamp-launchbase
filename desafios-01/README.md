@@ -23,9 +23,7 @@
 </p>
 
 <p align="center">
-  <a href="#-desafios">Sobre os desafios</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-entrega">Entrega</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-licença">Licença</a>
+  <a href="#-desafios">Sobre os desafios</a>
 </p>
 
 ## 🚀 Desafios
@@ -34,14 +32,6 @@
 - [Lidando com objetos e vetores](01-2-lidando-com-objetos-e-vetores/README.md)
 - [Funções e estruturas de repetição](01-3-funcoes-e-estruturas-de-repeticao/README.md)
 - [Aplicação: Operações bancárias](01-4-aplicacao-operacoes-bancarias/README.md)
-
-## 📅 Entrega
-
-Esse desafio **não precisa ser entregue** e não receberá correção, mas você pode ver o resultado do [código do desafio aqui](https://github.com/Rocketseat/bootcamp-gostack-desafio-01/blob/master/index.js). Após concluir o desafio, adicionar esse código ao seu Github é uma boa forma de demonstrar seus conhecimentos para oportunidades futuras.
-
-## 📝 Licença
-
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
 ---
 
