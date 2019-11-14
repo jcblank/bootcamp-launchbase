@@ -1,4 +1,3 @@
-// Cálculo de aposentadoria
 const nome = 'Silvana'
 const sexo = 'F'
 const idade = 48
