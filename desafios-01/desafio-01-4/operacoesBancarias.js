@@ -15,15 +15,15 @@ function createTransaction(transactions) {
 }
 
 function getHigherTransactionByType(type) {
-  let accumulator = 0
-  let higherTransaction = undefined
+  let higherTransaction = {
+    type: undefined,
+    value: 0
+  }
 
   for (let i of user.transactions) {
-    if (i.type === type) {
-      if (i.value > accumulator) {
-        accumulator = i.value
-        higherTransaction = i
-      }
+    if (i.type === type && i.value > higherTransaction.value) {
+      higherTransaction.type = i.type
+      higherTransaction.value = i.value
     }
   }
   
