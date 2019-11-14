@@ -8,14 +8,6 @@
 
 <blockquote align="center">“Sua única limitação é você mesmo”!</blockquote>
 
-<p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/miqueiasousa/bootcamp-launchbase?color=%23F7DF1E">
-
-  <a href="https://rocketseat.com.br">
-    <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-%23F7DF1E">
-  </a>
-</p>
-
 ## 🚀 Desafios
 
 - [Primeiros passos com JavaScript](01-1-primeiros-passos-com-js/README.md)
