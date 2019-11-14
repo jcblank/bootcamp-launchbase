@@ -9,21 +9,11 @@
 <blockquote align="center">“Sua única limitação é você mesmo”!</blockquote>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/rocketseat/bootcamp-launchbase-desafios-01?color=%23F7DF1E">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/miqueiasousa/bootcamp-launchbase?color=%23F7DF1E">
 
   <a href="https://rocketseat.com.br">
     <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-%23F7DF1E">
   </a>
-
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-%23F7DF1E">
-
-  <a href="https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/rocketseat/bootcamp-launchbase-desafios-01?style=social">
-  </a>
-</p>
-
-<p align="center">
-  <a href="#-desafios">Sobre os desafios</a>
 </p>
 
 ## 🚀 Desafios
