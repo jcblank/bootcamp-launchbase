@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
+
+/* ===== Variables ===== */
+:root {
+  --color-white: #ffffff;
+  --color-gray: #999999;
+  --color-gray-dark: #777777;
+  --color-black: #111111;
+  
+  --color-wrapper-bg: #FBDFDB;
+  --color-footer-bg: #EEEEEE;
+
+  --font-size-14px: 0.875em;
+  --font-size-18px: 1.125em;
+  --font-size-24px: 1.5em;
+
+  --sapce-20px: 1.25rem;
+  --space-30px: 1.88rem;
+}
+
+/* ===== Reset ===== */
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-white);
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: var(--color-black)
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ===== Grid ===== */
+.container {
+  margin: 0 auto;
+  max-width: 940px;
+}
+
+.gap-section {
+  margin-top: 3.13rem;
+}
+
+/* ===== Header ===== */
+.header {
+  padding: var(--space-30px) 0;
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  flex: 1;
+}
+
+.header__menu {
+  flex: 3;
+}
+
+.header__menu a {
+  margin: 0 var(--space-30px);
+  color: var(--color-black);
+}
+
+.header__menu a:hover {
+  font-weight: bold;
+}
+
+/* ===== Footer ===== */
+.footer--bg {
+  background-color: var(--color-footer-bg);
+}
+
+.footer {
+  margin-top: var(--gap-section);
+  padding: var(--sapce-20px) 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer p {
+  font-size: var(--font-size-14px);
+  color: var(--color-gray);
+}
+
+/* ===== Wrapper ===== */
+.wrapper {
+  width: 100%;
+  height: 366px;
+  border-radius: 30px;
+  padding: 3rem;
+  background: url('./assets/chef.png') 85% 100% no-repeat var(--color-wrapper-bg);
+  display: flex;
+  align-items: center;
+}
+
+.wrapper__content {
+  max-width: 38%;
+}
+
+.wrapper__content h1 {
+  margin-bottom: 0.63rem;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.wrapper__content p {
+  font-size: var(--font-size-18px);
+  line-height: 28px;
+  opacity: 0.7;
+}
+
+/* ===== Card ===== */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--sapce-20px);
+}
+
+.cards__title {
+  grid-column: span 3;
+  font-size: var(--font-size-24px);
+  font-weight: bold;
+  color: var(--color-black);
+}
+
+.card {
+  cursor: pointer;
+}
+
+.card__img img {
+  border-radius: 15px;
+}
+
+.card__content {
+  margin: var(--sapce-20px) 0;
+}
+
+.card__title {
+  margin-bottom: 0.31rem;
+  font-size: var(--font-size-18px);
+}
+
+.card__author {
+  font-size: var(--font-size-14px);
+  color: var(--color-gray-dark);
+}
+
+/* ===== Article ===== */
+.article h1 {
+  font-size: var(--font-size-24px);
+  font-weight: bold;
+}
+
+.article h2 {
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.article h1,
+.article h2 {
+  margin: var(--space-30px) 0 var(--sapce-20px) 0;
+}
+
+.article p {
+  font-size: var(--font-size-18px);
+  line-height: 28px;
+  color: #444444;
+}
+
+/* ===== Modal ===== */
+.modal-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: hsla(0, 0%, 0%, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+}
+
+.modal-overlay.active {
+  visibility: visible;
+}
+
+.modal {
+  width: 43vw;
+  height: 60vh;
+  padding: var(--space-30px);
+  border-radius: 16px;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.modal__content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal__content img {
+  width: 100%; 
+  height: 30vh;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.modal__content h1 {
+  margin: var(--sapce-20px) 0 0.31rem 0;
+  font-size: var(--font-size-24px);
+}
+
+.modal__content p {
+  font-size: var(--font-size-18px);
+  color: var(--color-gray-dark);
+}
+
+.modal__btn-close {
+  font-style: normal;
+  color: var(--color-gray);
+  cursor: pointer;
+}
