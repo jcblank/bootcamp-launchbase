@@ -9,3 +9,6 @@ Nesse desafio você vai construir um site completo para uma empresa de receitas 
 ## Regras
 
 1. Na página de receitas, quando o usuário clica em uma receita, um modal deve aparecer em tela contendo as mesmas informações da receita que ele clicou;
+
+## Resolução
+ - [Foodfy](https://miqueiasousa.github.io/bootcamp-launchbase/)
